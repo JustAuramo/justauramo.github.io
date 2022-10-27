@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>PUBG Datamined Damage Stats</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113385713-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-113385713-1');
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <script data-ad-client="ca-pub-8846384475928187" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=0.6">
+    <style>
+        .site-header,
+        body {
+            margin: 0;
+            padding: 0
+        }
+
+        .site-header {
+            font: initial;
+            font-family: Roboto, sans-serif;
+            font-size: 1.15rem;
+            box-sizing: border-box;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            display: flex;
+            flex-wrap: nowrap;
+            overflow: auto;
+            background-color: #ddd;
+            color: #000;
+            width: 100%
+        }
+
+        #header-home {
+            font-size: .75em
+        }
+
+        .site-header>* {
+            border: 1px solid #000;
+            border-top: none;
+            border-left: none;
+            white-space: nowrap;
+            flex: 0 0 auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column
+        }
+
+        .site-header .map {
+            font-size: .9rem
+        }
+
+        .site-header .dropbutton .label,
+        .site-header a {
+            vertical-align: middle;
+            padding: .15em .5em;
+            background-color: #ccc;
+            text-decoration: none;
+            cursor: pointer
+        }
+
+        .site-header .dropbutton .label,
+        .site-header a,
+        .site-header a:active,
+        .site-header a:hover,
+        .site-header a:visited {
+            color: #000
+        }
+
+        .site-header .dropbutton .label:hover,
+        .site-header a:hover {
+            background-color: #eee
+        }
+
+        .site-header .dropdown {
+            display: inline;
+            overflow: hidden
+        }
+
+        .site-header .dropdown:hover {
+            overflow: auto
+        }
+
+        .site-header .dropdown .dropbutton {
+            display: inline
+        }
+
+        .site-header .dropdown .dropbutton .label {
+            display: block
+        }
+
+        .site-header .dropdown .dropbutton .label:after {
+            content: "\25BC";
+            font-size: .8rem
+        }
+
+        .site-header .dropdown .dropcontent {
+            display: none
+        }
+
+        .site-header .dropdown:hover .dropcontent {
+            position: absolute;
+            z-index: 9999;
+            display: flex;
+            flex-direction: column
+        }
+
+        .site-header .dropdown:hover .dropcontent>* {
+            border: 1px solid #000;
+            border-top: none
+        }
+
+        .site-header .dropdown:hover .dropcontent>:first-child {
+            border-top: 1px solid #000
+        }
+
+        .site-header {
+            z-index: 9999
+        }
+
+        #popout {
+            z-index: 99999
+        }
+    </style>
+</head>
+
+<body>
+    <div class="site-header"> <a id="header-home" href="/">Battlegrounds.party</a>
+        <div id="header-map-dropdown" class="dropdown">
+            <div class="dropbutton">
+                <div id="header-map" class="label">Map</div>
+            </div>
+            <div class="dropcontent"> <a class="map" href="/map/?Summerland">Karakin</a> <a class="map"
+                    href="/map/?Baltic">Erangel</a> <a class="map" href="/map/?Desert">Miramar</a> <a class="map"
+                    href="/map/?Savage">Sanhok</a> <a class="map" href="/map/?DihorOtok">Vikendi</a> <a class="map"
+                    href="/map/?Range">Training Mode</a> <a class="map" href="/map/?Chimera">Paramo</a> <a class="map"
+                    href="/map/?Tiger">Taego</a> <a class="map" href="/map/?Heaven">Haven</a> <a class="map"
+                    href="/map/?Kiki">Deston</a> </div>
+        </div> <a id="header-damage" href="/weapons">Weapon Damage</a> <a id="header-circle" href="/circle">Circles</a>
+    </div>
+    <div id="body-wrapper">
+        <div id="notification"></div> <a name="top"></a>
+        <div id="figure-container">
+            <div class="figure"> <span class="head">100%</span> <span class="neck">75%</span> <span
+                    class="shoulder">100%</span> <span class="arms-upper">60%</span> <span class="chest">110%</span>
+                <span class="arms-lower">50%</span> <span class="stomach">100%</span> <span
+                    class="stomach-lower">95%</span> <span class="hands">30%</span> <span class="groin">100%</span>
+                <span class="thigh">60%</span> <span class="calf">50%</span> <span class="feet">30%</span>
+                <div class="version">
+                    <p>Info for PUBG version 19.1.5.1 &mdash; Generated 2022/08/16</p>
+                </div>
+            </div>
+        </div>
+        <div id="damage-input">
+            <div id="form-container">
+                <form>
+                    <div id="dmg-container" class="control"> <input type="radio" id="dmg" class="damage-val"
+                            name="tk-group"> <label for="dmg">Damage</label> </div>
+                    <div id="htk-container" class="control"> <input type="radio" id="htk" class="damage-val"
+                            name="tk-group"> <label for="htk">Hits to kill</label> </div>
+                    <div id="ttk-container" class="control"> <input type="radio" id="ttk" class="damage-val"
+                            name="tk-group"> <label for="ttk" title="Does not include bullet travel time.">Time to
+                            kill</label> <span id="burst-container" class="sub-control"> <input type="checkbox"
+                                id="burst" class="damage-val"><label for="burst"><span class="burst-info">*</span> Burst
+                                mode</label> </span> </div>
+                    <div id="distance-container" class="control">
+                        <div id="distance-container-controls"> <label for="distance-range">Distance:</label> <input
+                                type="range" id="distance-range" name="distance-range" min="0" max="1000" value="10">
+                            <input type="text" id="distance" value="10m"> </div>
+                        <div id="distance-error" class="error"></div>
+                    </div>
+                    <div id="shotgun-container" class="control"> <input type="checkbox" id="pel" class="damage-val">
+                        <label for="pel">Damage per shotgun pellet</label> </div>
+                    <div id="body-armor-input-container"> <label for="body-armor">Body Armour (0-3):</label> <input
+                            type="text" id="body-armor" value="0" class="damage-val"> </div>
+                    <div id="helmet-input-container"> <label for="helmet">Helmet (0-3):</label> <input type="text"
+                            id="helmet" value="0" class="damage-val"> </div>
+                </form>
+            </div>
+            <div id="armor-container">
+                <div id="helmet-container">
+                    <div id="helmet-0" class="helmet selected">No Helmet</div>
+                    <div id="helmet-1" class="helmet">Level 1 Helmet</div>
+                    <div id="helmet-2" class="helmet">Level 2 Helmet</div>
+                    <div id="helmet-3" class="helmet">Level 3 Helmet</div>
+                </div>
+                <div id="body-container">
+                    <div id="armor-0" class="armor selected">No Armor</div>
+                    <div id="armor--1" class="armor">Broken Armor</div>
+                    <div id="armor-1" class="armor">Level 1 Armor</div>
+                    <div id="armor-2" class="armor">Level 2 Armor</div>
+                    <div id="armor-3" class="armor">Level 3 Armor</div>
+                </div>
+            </div>
+        </div>
+        <div class="weaponlist">
+            <div class="weapon Mk47Mutant" data-weapon="Mk47Mutant" class="weapon">Mk47 Mutant <span
+                    class="base-damage">49</span> <span class="burst-info">*</span></div>
+            <div class="weapon AKM" data-weapon="AKM" class="weapon">AKM <span class="base-damage">47</span> </div>
+            <div class="weapon Groza" data-weapon="Groza" class="weapon">Groza <span class="base-damage">47</span>
+            </div>
+            <div class="weapon BerylM762" data-weapon="BerylM762" class="weapon">Beryl M762 <span
+                    class="base-damage">44</span> <span class="burst-info">*</span></div>
+            <div class="weapon ACE32" data-weapon="ACE32" class="weapon">ACE32 <span class="base-damage">43</span>
+            </div>
+            <div class="weapon M16A4" data-weapon="M16A4" class="weapon">M16A4 <span class="base-damage">43</span> <span
+                    class="burst-info">*</span></div>
+            <div class="weapon AUG" data-weapon="AUG" class="weapon">AUG <span class="base-damage">42</span> </div>
+            <div class="weapon QBZ" data-weapon="QBZ" class="weapon">QBZ <span class="base-damage">42</span> </div>
+            <div class="weapon SCAR-L" data-weapon="SCAR-L" class="weapon">SCAR-L <span class="base-damage">42</span>
+            </div>
+            <div class="weapon G36C" data-weapon="G36C" class="weapon">G36C <span class="base-damage">41</span> </div>
+            <div class="weapon K2" data-weapon="K2" class="weapon">K2 <span class="base-damage">41</span> <span
+                    class="burst-info">*</span></div>
+            <div class="weapon M416" data-weapon="M416" class="weapon">M416 <span class="base-damage">41</span> </div>
+            <div class="weapon DP-28" data-weapon="DP-28" class="weapon">DP-28 <span class="base-damage">52</span>
+            </div>
+            <div class="weapon MG3_FullAuto" data-weapon="MG3_FullAuto" class="weapon">MG3 (660 RPM) <span
+                    class="base-damage">42</span> </div>
+            <div class="weapon MG3_FullAutoFast" data-weapon="MG3_FullAutoFast" class="weapon">MG3 (990 RPM) <span
+                    class="base-damage">42</span> </div>
+            <div class="weapon M249" data-weapon="M249" class="weapon">M249 <span class="base-damage">41</span> </div>
+            <div class="weapon Mk14" data-weapon="Mk14" class="weapon">Mk14 <span class="base-damage">61</span> </div>
+            <div class="weapon SLR" data-weapon="SLR" class="weapon">SLR <span class="base-damage">56</span> </div>
+            <div class="weapon SKS" data-weapon="SKS" class="weapon">SKS <span class="base-damage">53</span> </div>
+            <div class="weapon Mk12" data-weapon="Mk12" class="weapon">Mk12 <span class="base-damage">51</span> </div>
+            <div class="weapon Mini14" data-weapon="Mini14" class="weapon">Mini14 <span class="base-damage">48</span>
+            </div>
+            <div class="weapon QBU" data-weapon="QBU" class="weapon">QBU <span class="base-damage">48</span> </div>
+            <div class="weapon VSS" data-weapon="VSS" title="No ballistics data available." class="weapon">VSS <span
+                    class="noballs"></span> <span class="base-damage">43</span> </div>
+            <div class="weapon L6" data-weapon="L6" class="weapon">Lynx AMR <span class="base-damage">118</span> </div>
+            <div class="weapon AWM" data-weapon="AWM" class="weapon">AWM <span class="base-damage">105</span> </div>
+            <div class="weapon Kar98k" data-weapon="Kar98k" class="weapon">Kar98k <span class="base-damage">79</span>
+            </div>
+            <div class="weapon MosinNagant" data-weapon="MosinNagant" class="weapon">Mosin Nagant <span
+                    class="base-damage">79</span> </div>
+            <div class="weapon M24" data-weapon="M24" class="weapon">M24 <span class="base-damage">75</span> </div>
+            <div class="weapon Win94" data-weapon="Win94" class="weapon">Win94 <span class="base-damage">66</span>
+            </div>
+            <div class="weapon Crossbow" data-weapon="Crossbow" class="weapon">Crossbow <span
+                    class="base-damage">105</span> </div>
+            <div class="weapon UMP" data-weapon="UMP" class="weapon">UMP45 <span class="base-damage">41</span> <span
+                    class="burst-info">*</span></div>
+            <div class="weapon TommyGun" data-weapon="TommyGun" class="weapon">Tommy Gun <span
+                    class="base-damage">40</span> </div>
+            <div class="weapon BizonPP19" data-weapon="BizonPP19" class="weapon">PP-19 Bizon <span
+                    class="base-damage">36</span> </div>
+            <div class="weapon P90" data-weapon="P90" class="weapon">P90 <span class="base-damage">35</span> </div>
+            <div class="weapon MP5K" data-weapon="MP5K" class="weapon">MP5K <span class="base-damage">33</span> <span
+                    class="burst-info">*</span></div>
+            <div class="weapon MP9" data-weapon="MP9" class="weapon">MP9 <span class="base-damage">31</span> <span
+                    class="burst-info">*</span></div>
+            <div class="weapon Vector" data-weapon="Vector" class="weapon">Vector <span class="base-damage">31</span>
+                <span class="burst-info">*</span></div>
+            <div class="weapon MicroUZI" data-weapon="MicroUZI" class="weapon">Micro UZI <span
+                    class="base-damage">26</span> </div>
+            <div class="weapon OriginS12" data-weapon="OriginS12" class="weapon">O12 <span
+                    class="base-damage">100</span> </div>
+            <div class="weapon DP12" data-weapon="DP12" class="weapon">DBS <span class="base-damage">26</span> <span
+                    class="pellets">9</span></div>
+            <div class="weapon S1897" data-weapon="S1897" class="weapon">S1897 <span class="base-damage">26</span> <span
+                    class="pellets">9</span></div>
+            <div class="weapon S686" data-weapon="S686" class="weapon">S686 <span class="base-damage">26</span> <span
+                    class="pellets">9</span></div>
+            <div class="weapon S12K" data-weapon="S12K" class="weapon">S12K <span class="base-damage">24</span> <span
+                    class="pellets">9</span></div>
+            <div class="weapon Sawed-off" data-weapon="Sawed-off" class="weapon">Sawed-Off <span
+                    class="base-damage">21</span> <span class="pellets">9</span></div>
+            <div class="weapon R45" data-weapon="R45" class="weapon">R45 <span class="base-damage">65</span> </div>
+            <div class="weapon R1895" data-weapon="R1895" class="weapon">R1895 <span class="base-damage">64</span>
+            </div>
+            <div class="weapon DesertEagle" data-weapon="DesertEagle" class="weapon">Deagle <span
+                    class="base-damage">62</span> </div>
+            <div class="weapon P1911" data-weapon="P1911" class="weapon">P1911 <span class="base-damage">42</span>
+            </div>
+            <div class="weapon P92" data-weapon="P92" class="weapon">P92 <span class="base-damage">34</span> </div>
+            <div class="weapon P18C" data-weapon="P18C" class="weapon">P18C <span class="base-damage">23</span> </div>
+            <div class="weapon vz61Skorpion" data-weapon="vz61Skorpion" class="weapon">Skorpion <span
+                    class="base-damage">22</span> </div>
+            <div class="weapon Pan" data-weapon="Pan" class="weapon">Pan <span class="base-damage">80</span> </div>
+            <div class="weapon Crowbar" data-weapon="Crowbar" class="weapon">Crowbar <span class="base-damage">60</span>
+            </div>
+            <div class="weapon Machete" data-weapon="Machete" class="weapon">Machete <span class="base-damage">60</span>
+            </div>
+            <div class="weapon Sickle" data-weapon="Sickle" class="weapon">Sickle <span class="base-damage">60</span>
+            </div>
+            <div class="weapon Superman-Punch" data-weapon="Superman-Punch" class="weapon">Jumping Punch <span
+                    class="base-damage">38</span> </div>
+            <div class="weapon Punch" data-weapon="Punch" class="weapon">Punch <span class="base-damage">18</span>
+            </div>
+        </div>
+        <div id="pseudo-weapons">
+            <h2>Location data</h2>
+            <div class="pseudo-weaponlist">
+                <div data-weapon="Hit-Area" class="weapon pseudo-weapon">Hit area damage</div>
+            </div>
+            <hr>
+            <div class="pseudo-weaponlist">
+                <div data-weapon="Class-Melee" class="weapon pseudo-weapon">Melee</div>
+                <div data-weapon="Class-Pistol" class="weapon pseudo-weapon">Pistol</div>
+                <div data-weapon="Class-Shotgun" class="weapon pseudo-weapon">Shotgun</div>
+                <div data-weapon="Class-SMG" class="weapon pseudo-weapon">SMG</div>
+                <div data-weapon="Class-Assault-Rifle" class="weapon pseudo-weapon">Assault Rifle</div>
+                <div data-weapon="Class-LMG" class="weapon pseudo-weapon">LMG</div>
+                <div data-weapon="Class-Crossbow" class="weapon pseudo-weapon">Crossbow</div>
+                <div data-weapon="Class-DMR" class="weapon pseudo-weapon">DMR</div>
+                <div data-weapon="Class-Sniper" class="weapon pseudo-weapon">Sniper</div>
+            </div>
+            <hr>
+            <div class="eq"> <span class="term">Damage</span> = <span class="term">Base damage</span> &times; <span
+                    class="term">Hit area damage</span> &times; <span class="term">Weapon class area damage</span>
+                &times; <span class="term">Range modifier <span class="note">(not shown)</span> </span></div>
+        </div> <a name="vehicles"></a>
+        <div class="table-container">
+            <h2>Vehicles <span class="smaller">(and stuff)</span></h2>
+            <div id="vehicle-table">
+                <div data-id="vehicle-BRDM" class="vehicle-info">
+                    <div class="vehicle-icon-container">
+                        <div class="vehicle-htk">
+                            <div class="vehicle-htk-weapon">AKM</div>
+                            <div class="vehicle-htk-count">--</div>
+                        </div>
+                        <div class="vehicle-SM_BRDM vehicle-icon"> </div>
+                    </div>
+                </div>
+                <div data-id="vehicle-ArmoredUAZ" class="vehicle-info">
+                    <div class="vehicle-icon-container">
+                        <div class="vehicle-htk">
+                            <div class="vehicle-htk-weapon">AKM</div>
+                            <div class="vehicle-htk-count">--</div>
+                        </div>
+                        <div class="vehicle-Uaz_Armored vehicle-icon"> </div>
+                    </div>
+                </div>
+                <div data-id="vehicle-Motorcycle" class="vehicle-info">
+                    <div class="vehicle-icon-container">
+                        <div class="vehicle-htk">
+                            <div class="vehicle-htk-weapon">AKM</div>
+                            <div class="vehicle-htk-count">--</div>
+                        </div>
+                        <div class="vehicle-BP_Motorbike_00_C vehicle-icon"> </div>
+                    </div>
+                </div>
+                <div data-id="vehicle-Dirtbike" class="vehicle-info">
+                    <div class="vehicle-icon-container">
+                        <div class="vehicle-htk">
+                            <div class="vehicle-htk-weapon">AKM</div>
+                            <div class="vehicle-htk-count">--</div>
+                        </div>
+                        <div class="vehicle-BP_Dirtbike_C vehicle-icon"> </div>
+                    </div>
+                </div>
+                <div data-id="vehicle-Buggy" class="vehicle-info">
+                    <div class="vehicle-icon-container">
+                        <div class="vehicle-htk">
+                            <div class="vehicle-htk-weapon">AKM</div>
+                            <div class="vehicle-htk-count">--</div>
+                        </div>
+                        <div class="vehicle-Buggy_A_00_C vehicle-icon"> </div>
+                    </div>
+                </div>
+                <div data-id="vehicle-Dacia" class="vehicle-info">
+                    <div class="vehicle-icon-container">
+                        <div class="vehicle-htk">
+                            <div class="vehicle-htk-weapon">AKM</div>
+                            <div class="vehicle-htk-count">--</div>
+                        </div>
+                        <div class="vehicle-Dacia_A_00_v2_C vehicle-icon"> </div>
+                    </div>
+                </div>
+                <div data-id="vehicle-UAZ" class="vehicle-info">
+                    <div class="vehicle-icon-container">
+                        <div class="vehicle-htk">
+                            <div class="vehicle-htk-weapon">AKM</div>
+                            <div class="vehicle-htk-count">--</div>
+                        </div>
+                        <div class="vehicle-Uaz_A_00_C vehicle-icon"> </div>
+                    </div>
+                </div>
+                <div data-id="vehicle-Mirado" class="vehicle-info">
+                    <div class="vehicle-icon-container">
+                        <div class="vehicle-htk">
+                            <div class="vehicle-htk-weapon">AKM</div>
+                            <div class="vehicle-htk-count">--</div>
+                        </div>
+                        <div class="vehicle-BP_Mirado_Open_00_C vehicle-icon"> </div>
+                    </div>
+                </div>
+                <div data-id="vehicle-Pickup" class="vehicle-info">
+                    <div class="vehicle-icon-container">
+                        <div class="vehicle-htk">
+                            <div class="vehicle-htk-weapon">AKM</div>
+                            <div class="vehicle-htk-count">--</div>
+                        </div>
+                        <div class="vehicle-BP_PickupTruck_A_00_C vehicle-icon"> </div>
+                    </div>
+                </div>
+                <div data-id="vehicle-MiniBus" class="vehicle-info">
+                    <div class="vehicle-icon-container">
+                        <div class="vehicle-htk">
+                            <div class="vehicle-htk-weapon">AKM</div>
+                            <div class="vehicle-htk-count">--</div>
+                        </div>
+                        <div class="vehicle-BP_Van_A_00_C vehicle-icon"> </div>
+                    </div>
+                </div>
+                <div data-id="vehicle-Tukshai" class="vehicle-info">
+                    <div class="vehicle-icon-container">
+                        <div class="vehicle-htk">
+                            <div class="vehicle-htk-weapon">AKM</div>
+                            <div class="vehicle-htk-count">--</div>
+                        </div>
+                        <div class="vehicle-BP_TukTukTuk_A_00_C vehicle-icon"> </div>
+                    </div>
+                </div>
+                <div data-id="vehicle-Rony" class="vehicle-info">
+                    <div class="vehicle-icon-container">
+                        <div class="vehicle-htk">
+                            <div class="vehicle-htk-weapon">AKM</div>
+                            <div class="vehicle-htk-count">--</div>
+                        </div>
+                        <div class="vehicle-BP_M_Rony_A_00_C vehicle-icon"> </div>
+                    </div>
+                </div>
+                <div data-id="vehicle-Scooter" class="vehicle-info">
+                    <div class="vehicle-icon-container">
+                        <div class="vehicle-htk">
+                            <div class="vehicle-htk-weapon">AKM</div>
+                            <div class="vehicle-htk-count">--</div>
+                        </div>
+                        <div class="vehicle-BP_Scooter_00_A_C vehicle-icon"> </div>
+                    </div>
+                </div>
+                <div data-id="vehicle-Snowmobile" class="vehicle-info">
+                    <div class="vehicle-icon-container">
+                        <div class="vehicle-htk">
+                            <div class="vehicle-htk-weapon">AKM</div>
+                            <div class="vehicle-htk-count">--</div>
+                        </div>
+                        <div class="vehicle-BP_Snowmobile_00_C vehicle-icon"> </div>
+                    </div>
+                </div>
+                <div data-id="vehicle-Snowbike" class="vehicle-info">
+                    <div class="vehicle-icon-container">
+                        <div class="vehicle-htk">
+                            <div class="vehicle-htk-weapon">AKM</div>
+                            <div class="vehicle-htk-count">--</div>
+                        </div>
+                        <div class="vehicle-BP_Snowbike_00_C vehicle-icon"> </div>
+                    </div>
+                </div>
+                <div data-id="vehicle-Zima" class="vehicle-info">
+                    <div class="vehicle-icon-container">
+                        <div class="vehicle-htk">
+                            <div class="vehicle-htk-weapon">AKM</div>
+                            <div class="vehicle-htk-count">--</div>
+                        </div>
+                        <div class="vehicle-BP_Niva_00_C vehicle-icon"> </div>
+                    </div>
+                </div>
+                <div data-id="vehicle-Boat" class="vehicle-info">
+                    <div class="vehicle-icon-container">
+                        <div class="vehicle-htk">
+                            <div class="vehicle-htk-weapon">AKM</div>
+                            <div class="vehicle-htk-count">--</div>
+                        </div>
+                        <div class="vehicle-PG117_A_00_C vehicle-icon"> </div>
+                    </div>
+                </div>
+                <div data-id="vehicle-AquaRail" class="vehicle-info">
+                    <div class="vehicle-icon-container">
+                        <div class="vehicle-htk">
+                            <div class="vehicle-htk-weapon">AKM</div>
+                            <div class="vehicle-htk-count">--</div>
+                        </div>
+                        <div class="vehicle-AquaRail_A_00_C vehicle-icon"> </div>
+                    </div>
+                </div>
+                <div data-id="vehicle-Motorglider" class="vehicle-info">
+                    <div class="vehicle-icon-container">
+                        <div class="vehicle-htk">
+                            <div class="vehicle-htk-weapon">AKM</div>
+                            <div class="vehicle-htk-count">--</div>
+                        </div>
+                        <div class="vehicle-SK_Motorglider vehicle-icon"> </div>
+                    </div>
+                </div>
+                <div data-id="vehicle-LootTruck" class="vehicle-info">
+                    <div class="vehicle-icon-container">
+                        <div class="vehicle-htk">
+                            <div class="vehicle-htk-weapon">AKM</div>
+                            <div class="vehicle-htk-count">--</div>
+                        </div>
+                        <div class="vehicle-BP_LootTruck_C vehicle-icon"> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">Completely untested loot truck data. Where are the weakpoints? IDK. Somewhere on the
+                left and right sides of the vehicle judging by the names ("LeftWeakPointVolume", "RightWeakPointVolume")
+            </div>
+        </div> <a name="table"></a>
+        <div class="table-container">
+            <h2>Damage table</h2>
+            <table id="damage-table">
+                <thead>
+                    <tr>
+                        <th data-bone="weapon" class="sort-indicator-neutral">Weapon</th>
+                        <th data-bone="head">Head</th>
+                        <th data-bone="neck">Neck</th>
+                        <th data-bone="shoulder">Clavicles</th>
+                        <th data-bone="chest">Upper chest</th>
+                        <th data-bone="stomach">Lower chest</th>
+                        <th data-bone="stomach-lower">Stomach</th>
+                        <th data-bone="groin">Pelvis</th>
+                        <th data-bone="arms-upper">Upper limb</th>
+                        <th data-bone="arms-lower">Lower limb</th>
+                        <th data-bone="hands">Hand/foot</th>
+                    </tr>
+                </thead>
+                <tbody> </tbody>
+            </table>
+        </div>
+        <div class="footer">
+            <p>Info for PUBG version 19.1.5.1 &mdash; Generated 2022/08/16 <a
+                    href="https://www.reddit.com/message/compose/?to=bizzfarts&subject=pubg+weapons">contact</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
