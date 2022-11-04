@@ -1,0 +1,189 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
+#body-wrapper {
+  background-color: #181818;
+}
+
+#damage-input {
+  background-color: #1C1C1C;
+}
+
+div.site-header {
+  background-color: #0F0F0F;
+}
+
+#distance-range {
+  background-color: #1C1C1C;
+}
+
+form div label {
+  color: #ffffff;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+}
+
+div div h2 {
+  color: #ffffff;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-style: normal;
+}
+
+div.weapon.pseudo-weapon {
+  color: #ffffff;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-style: normal;
+}
+
+span.term {
+  color: #ffffff;
+}
+
+div.eq {
+  color: #ffffff;
+  
+}
+
+tbody tr td {
+  color: #ffffff;
+}
+
+thead tr th {
+  color: #ffffff;
+  
+}
+
+#distance {
+  color: #ff0000;
+  
+}
+
+#header-home {
+  background-color: #0F0F0F;
+  color: #ffffff;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-style: normal;
+}
+
+div.label {
+  background-color: #0F0F0F;
+  color: #ffffff;
+}
+
+#header-damage {
+  background-color: #0F0F0F;
+  color: #ffffff;
+  display: none;
+}
+
+#header-circle {
+  background-color: #0F0F0F;
+  color: #ffffff;
+  display: none;
+}
+
+
+
+div.weapon.selected {
+  background-color: #0F0F0F;
+}
+
+
+
+div.weapon.pseudo-weapon.selected {
+  background-color: #000000;
+}
+
+
+
+div.footer {
+  color: #ffffff;
+  font-family: Apercu Pro;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+div.vehicle-htk-weapon {
+  font-family: Apercu Pro;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+div.weapon.Mk12 {
+  font-family: Apercu Pro;
+}
+
+
+
+span.base-damage {
+  font-family: Apercu Pro;
+  font-weight: 700;
+  font-style: normal;
+}
+
+div.weapon {
+  font-family: Apercu Pro
+}
+
+#body-wrapper {
+    background-color: #181818;
+  }
+  
+  #damage-input {
+    background-color: #181818;
+  }
+  
+  div.site-header {
+    background-color: #181818;
+  }
+  
+  #distance-range {
+    background-color: #181818;
+  }
+  form div label {
+    color: #ffffff;
+  }
+  div div h2 {
+    color: #ffffff;
+  }
+  div.weapon.pseudo-weapon {
+    color: #ffffff;
+  }
+  span.term {
+    color: #ffffff;
+  }
+  div.eq {
+    color: #ffffff;
+    
+  }
+  tbody tr td {
+    color: #ffffff;
+  }
+  thead tr th {
+    color: #ffffff;
+    
+  }
+  #distance {
+    color: #ff0000;
+    
+  }
+
+  a.map {
+    background-color: #0F0F0F;
+    color: #ffffff;
+  }
+
+  .site-header .dropdown .dropbutton .label {
+    display: none;
+}
+div.version {
+  display: none;
+}

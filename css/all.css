@@ -1,0 +1,1715 @@
+
+.vehicle-BP_Motorbike_00_C {
+    background-position: 0 0
+}
+
+.vehicle-BP_Motorbike_00_C,
+.vehicle-BP_Motorbike_00_Desert_C {
+    background-image: url(../img/vehicle-sheet.png?7cace2d067ee);
+    width: 200px;
+    height: 200px
+}
+
+.vehicle-BP_Motorbike_00_Desert_C {
+    background-position: -200px 0
+}
+
+.vehicle-BP_Motorbike_00_SideCar_Desert_C {
+    background-position: 0 -200px
+}
+
+.vehicle-BP_Motorbike_00_SideCar_Desert_C,
+.vehicle-BP_TukTukTuk_A_00_C {
+    background-image: url(../img/vehicle-sheet.png?7cace2d067ee);
+    width: 200px;
+    height: 180px
+}
+
+.vehicle-BP_TukTukTuk_A_00_C {
+    background-position: -200px -200px
+}
+
+.vehicle-BP_Scooter_00_A_C {
+    background-image: url(../img/vehicle-sheet.png?7cace2d067ee);
+    background-position: -400px 0;
+    width: 179px;
+    height: 200px
+}
+
+.vehicle-SK_Motorglider {
+    background-position: 0 -380px;
+    height: 175px
+}
+
+.vehicle-BP_LootTruck_C,
+.vehicle-SK_Motorglider {
+    background-image: url(../img/vehicle-sheet.png?7cace2d067ee);
+    width: 200px
+}
+
+.vehicle-BP_LootTruck_C {
+    background-position: -200px -380px;
+    height: 167px
+}
+
+.vehicle-BP_Motorbike_00_SideCar_C {
+    background-image: url(../img/vehicle-sheet.png?7cace2d067ee);
+    background-position: -579px 0;
+    width: 200px;
+    height: 166px
+}
+
+.vehicle-sk_uaz_hardtop_redzoned {
+    background-position: -579px -166px
+}
+
+.vehicle-BP_Niva_00_C,
+.vehicle-sk_uaz_hardtop_redzoned {
+    background-image: url(../img/vehicle-sheet.png?7cace2d067ee);
+    width: 200px;
+    height: 161px
+}
+
+.vehicle-BP_Niva_00_C {
+    background-position: -579px -327px
+}
+
+.vehicle-Uaz_Armored {
+    background-position: 0 -555px
+}
+
+.vehicle-Uaz_A_00_C,
+.vehicle-Uaz_Armored {
+    background-image: url(../img/vehicle-sheet.png?7cace2d067ee);
+    width: 200px;
+    height: 160px
+}
+
+.vehicle-Uaz_A_00_C {
+    background-position: -200px -555px
+}
+
+.vehicle-Uaz_B_00_C {
+    background-position: -400px -555px
+}
+
+.vehicle-Uaz_B_00_C,
+.vehicle-Uaz_C_00_C {
+    background-image: url(../img/vehicle-sheet.png?7cace2d067ee);
+    width: 200px;
+    height: 160px
+}
+
+.vehicle-Uaz_C_00_C {
+    background-position: -779px 0
+}
+
+.vehicle-BP_Snowmobile_00_C {
+    background-position: -779px -160px;
+    width: 200px;
+    height: 155px
+}
+
+.vehicle-BP_Dirtbike_C,
+.vehicle-BP_Snowmobile_00_C {
+    background-image: url(../img/vehicle-sheet.png?7cace2d067ee)
+}
+
+.vehicle-BP_Dirtbike_C {
+    background-position: -779px -315px;
+    width: 154px;
+    height: 200px
+}
+
+.vehicle-BP_M_Rony_A_00_C {
+    background-position: -779px -515px;
+    height: 146px
+}
+
+.vehicle-BP_M_Rony_A_00_C,
+.vehicle-BP_Snowbike_00_C {
+    background-image: url(../img/vehicle-sheet.png?7cace2d067ee);
+    width: 200px
+}
+
+.vehicle-BP_Snowbike_00_C {
+    background-position: 0 -715px;
+    height: 145px
+}
+
+.vehicle-SM_BRDM {
+    background-position: -200px -715px;
+    height: 135px
+}
+
+.vehicle-BP_PickupTruck_B_00_C,
+.vehicle-SM_BRDM {
+    background-image: url(../img/vehicle-sheet.png?7cace2d067ee);
+    width: 200px
+}
+
+.vehicle-BP_PickupTruck_B_00_C {
+    background-position: -400px -715px;
+    height: 134px
+}
+
+.vehicle-BP_PickupTruck_A_00_C {
+    background-image: url(../img/vehicle-sheet.png?7cace2d067ee);
+    background-position: -600px -715px;
+    width: 200px;
+    height: 125px
+}
+
+.vehicle-Buggy_A_00_C {
+    background-position: -979px 0
+}
+
+.vehicle-BP_Van_A_00_C,
+.vehicle-Buggy_A_00_C {
+    background-image: url(../img/vehicle-sheet.png?7cace2d067ee);
+    width: 200px;
+    height: 123px
+}
+
+.vehicle-BP_Van_A_00_C {
+    background-position: -979px -123px
+}
+
+.vehicle-Dacia_A_00_v2_C {
+    background-position: -979px -246px;
+    height: 117px
+}
+
+.vehicle-BP_Mirado_A_00_C,
+.vehicle-Dacia_A_00_v2_C {
+    background-image: url(../img/vehicle-sheet.png?7cace2d067ee);
+    width: 200px
+}
+
+.vehicle-BP_Mirado_A_00_C {
+    background-position: -979px -363px;
+    height: 112px
+}
+
+.vehicle-BP_Mirado_Open_00_C {
+    background-position: -979px -475px;
+    height: 109px
+}
+
+.vehicle-BP_Mirado_Open_00_C,
+.vehicle-Dacia_A_00_v2_snow_C {
+    background-image: url(../img/vehicle-sheet.png?7cace2d067ee);
+    width: 200px
+}
+
+.vehicle-Dacia_A_00_v2_snow_C {
+    background-position: -979px -584px;
+    height: 107px
+}
+
+.vehicle-AquaRail_A_00_C {
+    background-position: -979px -691px;
+    height: 70px
+}
+
+.vehicle-AquaRail_A_00_C,
+.vehicle-PG117_A_00_C {
+    background-image: url(../img/vehicle-sheet.png?7cace2d067ee);
+    width: 200px
+}
+
+.vehicle-PG117_A_00_C {
+    background-position: -979px -761px;
+    height: 61px
+}
+
+@charset "UTF-8";
+@import url(vehicle-sheet.css);
+
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: Roboto, sans-serif
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: Roboto, sans-serif;
+    font-size: medium
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    font-weight: 700
+}
+
+h2 span.smaller {
+    font-size: .5em
+}
+
+.note {
+    color: rgba(196, 32, 32, .6);
+    font-size: small
+}
+
+.note * {
+    margin: .15em
+}
+
+@keyframes a {
+    0% {
+        color: red
+    }
+
+    to {
+        color: #faa
+    }
+}
+
+#notification {
+    color: red;
+    font-size: large
+}
+
+#notification a {
+    animation: a alternate 3s infinite
+}
+
+#notification a,
+#notification a:visited {
+    color: red
+}
+
+#notification a:hover {
+    color: #f44
+}
+
+#figure-container {
+    float: left;
+    width: 330px;
+    height: 673.2px;
+    margin-right: 10px;
+    position: relative
+}
+
+.figure {
+    transform: scale(.66);
+    transform-origin: 0 0;
+    position: relative;
+    width: 500px;
+    height: 1020px;
+    background-image: url(../img/figure.png);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    color: #000;
+    font-size: 28px
+}
+
+.version {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    font-size: small
+}
+
+.figure .head {
+    position: absolute;
+    left: 322px;
+    top: 10px
+}
+
+.figure .neck {
+    position: absolute;
+    left: 351px;
+    top: 107px
+}
+
+.figure .shoulder {
+    position: absolute;
+    left: 306px;
+    top: 165px
+}
+
+.figure .chest {
+    top: 281px
+}
+
+.figure .chest,
+.figure .stomach {
+    position: absolute;
+    left: 112px;
+    width: 160px;
+    text-align: center;
+    color: #ccc
+}
+
+.figure .stomach {
+    top: 381px
+}
+
+.figure .stomach-lower {
+    top: 443px
+}
+
+.figure .groin,
+.figure .stomach-lower {
+    position: absolute;
+    left: 112px;
+    width: 160px;
+    text-align: center;
+    color: #ccc
+}
+
+.figure .groin {
+    top: 487px
+}
+
+.figure .arms-upper {
+    position: absolute;
+    left: 358px;
+    top: 247px
+}
+
+.figure .arms-lower {
+    position: absolute;
+    left: 389px;
+    top: 362px
+}
+
+.figure .hands {
+    position: absolute;
+    left: 418px;
+    top: 448px
+}
+
+.figure .thigh {
+    position: absolute;
+    left: 357px;
+    top: 603px
+}
+
+.figure .calf {
+    position: absolute;
+    left: 381px;
+    top: 742px
+}
+
+.figure .feet {
+    position: absolute;
+    left: 358px;
+    top: 891px
+}
+
+.figure .lowlight {
+    opacity: .5
+}
+
+.figure .htk-1 {
+    color: red
+}
+
+.figure .htk-2 {
+    color: #f0f
+}
+
+.figure .htk-3 {
+    color: orange
+}
+
+.figure .htk-4 {
+    color: #47f
+}
+
+.figure .htk-5 {
+    color: #3a3
+}
+
+.figure .htk-6 {
+    color: #9370d8
+}
+
+.figure .htk-7,
+.figure .htk-8,
+.figure .htk-9 {
+    color: #c71585
+}
+
+.figure .htk-10,
+.figure .htk-11,
+.figure .htk-12,
+.figure .htk-13,
+.figure .htk-14,
+.figure .htk-15,
+.figure .htk-16,
+.figure .htk-17,
+.figure .htk-18,
+.figure .htk-19 {
+    color: #b6936b
+}
+
+.figure .htk-20 {
+    color: #ebc79e
+}
+
+.figure .pelletmult {
+    font-size: 16px;
+    opacity: .9
+}
+
+#pseudo-weapons {
+    margin-top: 1em;
+    clear: both
+}
+
+input.toggle,
+input.toggle+.toggle {
+    display: none
+}
+
+input.toggle:checked+.toggle {
+    display: block
+}
+
+.pseudo-weaponlist {
+    overflow: hidden
+}
+
+.pseudo-weaponlist .weapon {
+    float: left;
+    width: 150px;
+    height: 1.5em;
+    line-height: 1.5em;
+    padding: 2px;
+    margin: 2px;
+    border: 1px solid #888;
+    position: relative;
+    text-align: center;
+    cursor: pointer
+}
+
+.pseudo-weaponlist .weapon:hover {
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    text-shadow: -1px 0 2px #f0f0f0, 1px 0 2px #f0f0f0, 0 -1px 2px #f0f0f0, 0 1px 2px #f0f0f0
+}
+
+.pseudo-weaponlist .weapon.selected {
+    border: 1px solid #88f;
+    box-shadow: inset 0 0 3px #88f;
+    background-color: #eef
+}
+
+.weaponlist {
+    overflow: hidden;
+    display: inline
+}
+
+.weaponlist .weapon {
+    float: left;
+    background-image: url(../img/weapon-sheet.png?7cace2d067ee);
+    height: 96px;
+    width: 96px;
+    padding: 2px;
+    margin: 2px;
+    border: 1px solid #888;
+    text-align: right;
+    text-shadow: -1px 0 2px #fff, 1px 0 2px #fff, 0 -1px 2px #fff, 0 1px 2px #fff;
+    position: relative;
+    cursor: pointer
+}
+
+.weaponlist .weapon:hover {
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    text-shadow: -1px 0 2px #f0f0f0, 1px 0 2px #f0f0f0, 0 -1px 2px #f0f0f0, 0 1px 2px #f0f0f0
+}
+
+
+
+.weaponlist .burst-info,
+.weaponlist .pellets {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: .8
+}
+
+.burst-info {
+    color: #2e8b57
+}
+
+.pellets:after {
+    display: block;
+    content: "pellets";
+    font-size: xx-small
+}
+
+.base-damage {
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: .8
+}
+
+.base-damage:after {
+    display: block;
+    content: "base damage";
+    font-size: xx-small
+}
+
+.footer {
+    clear: both;
+    font-size: xx-small
+}
+
+.footer p {
+    margin: 0
+}
+
+.footer a {
+    color: #aaf
+}
+
+.eq {
+    margin-bottom: 1em
+}
+
+.eq .term {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 3px
+}
+
+.eq .note {
+    font-size: x-small
+}
+
+hr {
+    border: 1px dotted gray
+}
+
+.weapon.AKM {
+    background-position: -99px 0
+}
+
+.weapon.AUG {
+    background-position: -198px 0
+}
+
+.weapon.Groza {
+    background-position: 0 0
+}
+
+.weapon.M416 {
+    background-position: 0 -198px
+}
+
+.weapon.SCAR-L {
+    background-position: -99px -198px
+}
+
+.weapon.M16A4 {
+    background-position: -198px -99px
+}
+
+.weapon.QBZ {
+    background-position: -198px -198px
+}
+
+.weapon.BerylM762 {
+    background-position: -99px -99px
+}
+
+.weapon.Mk47Mutant {
+    background-position: 0 -99px
+}
+
+.weapon.G36C {
+    background-position: -297px 0
+}
+
+.weapon.K2 {
+    background-position: -297px -99px
+}
+
+.weapon.ACE32 {
+    background-position: -297px -198px
+}
+
+.weapon.DP-28 {
+    background-position: 0 -297px
+}
+
+.weapon.M249 {
+    background-position: -99px -297px
+}
+
+.weapon.MG3,
+.weapon.MG3_FullAuto,
+.weapon.MG3_FullAutoFast {
+    background-position: -198px -297px
+}
+
+.weapon.SKS {
+    background-position: -396px 0
+}
+
+.weapon.Win94 {
+    background-position: -495px -198px
+}
+
+.weapon.Mini14 {
+    background-position: -396px -99px
+}
+
+.weapon.Mk14 {
+    background-position: -297px -297px
+}
+
+.weapon.QBU {
+    background-position: -396px -297px
+}
+
+.weapon.SLR {
+    background-position: 0 -396px
+}
+
+.weapon.Mk12 {
+    background-position: -99px -396px
+}
+
+.weapon.VSS {
+    background-position: -396px -198px
+}
+
+.weapon.Kar98k {
+    background-position: -495px 0
+}
+
+.weapon.MosinNagant {
+    background-position: -495px -99px
+}
+
+.weapon.M24 {
+    background-position: -396px -396px
+}
+
+.weapon.AWM {
+    background-position: -297px -396px
+}
+
+.weapon.L6 {
+    background-position: -198px -396px
+}
+
+.weapon.Crossbow {
+    background-position: -495px -297px
+}
+
+.weapon.TommyGun {
+    background-position: -495px -396px
+}
+
+.weapon.UMP {
+    background-position: 0 -495px
+}
+
+.weapon.MicroUZI {
+    background-position: -297px -495px
+}
+
+.weapon.Vector {
+    background-position: -99px -495px
+}
+
+.weapon.MP5K {
+    background-position: -198px -495px
+}
+
+.weapon.vz61Skorpion {
+    background-position: -594px -594px
+}
+
+.weapon.BizonPP19 {
+    background-position: -396px -495px
+}
+
+.weapon.P90 {
+    background-position: -495px -495px
+}
+
+.weapon.MP9 {
+    background-position: -594px 0
+}
+
+.weapon.OriginS12 {
+    background-position: -594px -99px
+}
+
+.weapon.S686 {
+    background-position: -594px -198px
+}
+
+.weapon.S1897 {
+    background-position: -594px -297px
+}
+
+.weapon.S12K {
+    background-position: -594px -396px
+}
+
+.weapon.Sawed-off {
+    background-position: -594px -495px
+}
+
+.weapon.DP12 {
+    background-position: 0 -594px
+}
+
+.weapon.P18C {
+    background-position: -495px -594px
+}
+
+.weapon.P92 {
+    background-position: -396px -594px
+}
+
+.weapon.P1911 {
+    background-position: -297px -594px
+}
+
+.weapon.R1895 {
+    background-position: -99px -594px
+}
+
+.weapon.R45 {
+    background-position: -198px -594px
+}
+
+.weapon.DesertEagle {
+    background-position: -693px 0
+}
+
+.weapon.Crowbar {
+    background-position: -693px -198px
+}
+
+.weapon.Machete {
+    background-position: -693px -297px
+}
+
+.weapon.Pan {
+    background-position: -693px -99px
+}
+
+.weapon.Sickle {
+    background-position: -693px -396px
+}
+
+.weapon.Punch {
+    background-position: -693px -594px
+}
+
+.weapon.Superman-Punch {
+    background-position: -693px -495px
+}
+
+#damage-input {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #181818;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px
+}
+
+#damage-input * {
+    vertical-align: text-top
+}
+
+#armor-container {
+    display: flex;
+    flex-direction: column
+}
+
+#form-container {
+    display: inline-block
+}
+
+#body-container,
+#helmet-container {
+    display: flex
+}
+
+.armor,
+.helmet {
+    background-image: url(../img/equipment-sheet.png?7cace2d067ee);
+    width: 50px;
+    height: 50px;
+    color: transparent;
+    cursor: pointer;
+    border: 2px solid #888
+}
+
+.armor.selected,
+.helmet.selected {
+    border: 2px solid #88f;
+    box-shadow: inset 0 0 3px #88f;
+    background-color: #eef
+}
+
+.armor:hover,
+.helmet:hover {
+    border: 2px solid #ccc;
+    background-color: #f0f0f0
+}
+
+#helmet-1 {
+    background-position: 0 0
+}
+
+#helmet-2 {
+    background-position: -52px 0
+}
+
+#helmet-3 {
+    background-position: 0 -52px
+}
+
+#armor--1 {
+    background-position: -104px -52px;
+    background-color: rgba(255, 0, 0, .35);
+    position: relative
+}
+
+#armor--1.selected {
+    box-shadow: inset 0 0 3px rgba(255, 0, 0, .5);
+    background-color: rgba(255, 0, 0, .5)
+}
+
+#armor--1:hover {
+    background-color: rgba(255, 0, 0, .2)
+}
+
+#armor--1:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .9;
+    transform: scale(.7);
+    background-image: url(../img/equipment-sheet.png?7cace2d067ee);
+    background-position: 0 -104px
+}
+
+#armor-1 {
+    background-position: -104px -52px
+}
+
+#armor-2 {
+    background-position: -104px 0
+}
+
+#armor-3 {
+    background-position: -52px -52px
+}
+
+#armor-0,
+#helmet-0 {
+    background-image: url(../img/Gray_cross_out.svg);
+    background-size: contain;
+    opacity: .6
+}
+
+#starting-health-container-controls {
+    display: inline-block;
+    position: relative
+}
+
+#starting-health-container-controls>* {
+    vertical-align: middle
+}
+
+#starting-health-container-controls .reset {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    top: 0
+}
+
+#starting-health-container-controls .reset:after {
+    content: "X"
+}
+
+@keyframes b {
+    0% {
+        color: #800;
+        background: transparent
+    }
+
+    5% {
+        color: red;
+        background: rgba(50, 0, 0, .05)
+    }
+
+    10% {
+        color: #800;
+        background: transparent
+    }
+}
+
+input[type=text] {
+    border: 1px solid #a9a9a9;
+    background: transparent
+}
+
+#health {
+    width: 4.5em;
+    color: #800;
+    animation: b 5s infinite;
+    font-size: 1.05em;
+    transition: all .5s ease-in-out
+}
+
+#health[value="100"] {
+    background: transparent;
+    font-size: 1em;
+    color: #000;
+    animation: none
+}
+
+#body-armor-input-container,
+#helmet-input-container {
+    display: none
+}
+
+.sub-control {
+    font-size: small
+}
+
+.sub-control input,
+.sub-control label {
+    margin: 0;
+    padding: 0
+}
+
+.info input {
+    display: none
+}
+
+.info input+label {
+    color: blue;
+    cursor: pointer
+}
+
+.info input+label .details {
+    color: #000;
+    cursor: auto;
+    font-size: small;
+    display: none
+}
+
+.info input:checked+label .details {
+    display: block
+}
+
+#distance {
+    width: 3.5em
+}
+
+#distance-container {
+    display: table
+}
+
+#distance-container-controls>label {
+    display: inline-block
+}
+
+#distance-container-controls>input,
+#distance-container-controls>label {
+    vertical-align: middle
+}
+
+#distance-container-controls>input:before,
+#distance-container-controls>label:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%
+}
+
+.error {
+    color: red;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px dotted red;
+    background-color: rgba(255, 0, 0, .1);
+    font-size: small;
+    display: none
+}
+
+.error.show {
+    display: table-caption;
+    caption-side: bottom
+}
+
+.noballs:after {
+    content: "*";
+    font-size: x-small;
+    vertical-align: top;
+    color: red
+}
+
+input[disabled],
+label[disabled] {
+    color: gray
+}
+
+#damage-table {
+    border-collapse: separate;
+    border-spacing: 0
+}
+
+#damage-table th {
+    border-top: 1px solid #888;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #888;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: 3em;
+    cursor: pointer
+}
+
+#damage-table th:before {
+    font-size: xx-small;
+    font-family: monospace;
+    vertical-align: middle;
+    line-height: 100%;
+    content: "\a0"
+}
+
+#damage-table th.sort-indicator-neutral:before {
+    content: "â†½"
+}
+
+#damage-table th.sort-indicator-ascending:before {
+    content: "â–²"
+}
+
+#damage-table th.sort-indicator-descending:before {
+    content: "â–¼"
+}
+
+#damage-table td {
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    min-width: 5em
+}
+
+#damage-table tr:last-of-type td {
+    border-bottom: 1px solid #888
+}
+
+#damage-table tr:last-of-type td:first-of-type {
+    border-bottom-left-radius: 5px
+}
+
+#damage-table tr:last-of-type td:last-of-type {
+    border-bottom-right-radius: 5px
+}
+
+#damage-table th:active,
+#damage-table th:hover {
+    background-color: #ccc
+}
+
+#damage-table [data-bone=weapon] {
+    min-width: 8em
+}
+
+#damage-table th[data-bone=weapon] {
+    border-left: 1px solid #888;
+    border-top-left-radius: 5px;
+    border-right: 1px solid #888;
+    border-top-right-radius: 5px
+}
+
+#damage-table th[data-bone=head] {
+    border-left: 1px solid #888;
+    border-top-left-radius: 5px
+}
+
+#damage-table th[data-bone=neck] {
+    border-right: 1px solid #888;
+    border-top-right-radius: 5px
+}
+
+#damage-table th[data-bone=shoulder] {
+    border-left: 1px solid #888;
+    border-top-left-radius: 5px
+}
+
+#damage-table th[data-bone=groin] {
+    border-right: 1px solid #888;
+    border-top-right-radius: 5px
+}
+
+#damage-table th[data-bone=arms-upper] {
+    border-left: 1px solid #888;
+    border-top-left-radius: 5px
+}
+
+#damage-table th[data-bone=hands] {
+    border-right: 1px solid #888;
+    border-top-right-radius: 5px
+}
+
+#damage-table td {
+    text-align: right
+}
+
+#damage-table td .fractional-part {
+    display: inline-block;
+    min-width: 1.75em;
+    text-align: left
+}
+
+#damage-table td .separator {
+    display: inline-block;
+    min-width: 1em;
+    text-align: center
+}
+
+#damage-table td .integer-part {
+    display: inline-block
+}
+
+#damage-table td .pelletmult {
+    font-size: small
+}
+
+#damage-table td[data-bone=weapon] {
+    border-left: 1px solid #888;
+    border-right: 1px solid #888
+}
+
+#damage-table td[data-bone=head] {
+    border-left: 1px solid #888
+}
+
+#damage-table td[data-bone=neck] {
+    border-right: 1px solid #888
+}
+
+#damage-table td[data-bone=shoulder] {
+    border-left: 1px solid #888
+}
+
+#damage-table td[data-bone=groin] {
+    border-right: 1px solid #888
+}
+
+#damage-table td[data-bone=arms-upper] {
+    border-left: 1px solid #888
+}
+
+#damage-table td[data-bone=hands] {
+    border-right: 1px solid #888
+}
+
+#damage-table td.htk-1 {
+    background-color: #f99
+}
+
+#damage-table td.htk-2 {
+    background-color: #f9f
+}
+
+#damage-table td.htk-3 {
+    background-color: #ffdb99
+}
+
+#damage-table td.htk-4 {
+    background-color: #dde6ff
+}
+
+#damage-table td.htk-5 {
+    background-color: #96e096
+}
+
+#damage-table td.htk-6 {
+    background-color: #eee8f9
+}
+
+#damage-table td.htk-7,
+#damage-table td.htk-8,
+#damage-table td.htk-9 {
+    background-color: #f283c9
+}
+
+#damage-table td.htk-10,
+#damage-table td.htk-11,
+#damage-table td.htk-12,
+#damage-table td.htk-13,
+#damage-table td.htk-14,
+#damage-table td.htk-15,
+#damage-table td.htk-16,
+#damage-table td.htk-17,
+#damage-table td.htk-18,
+#damage-table td.htk-19 {
+    background-color: #e9ded1
+}
+
+#damage-table td.htk-20 {
+    background-color: #fcf8f3
+}
+
+#damage-table tr:focus td,
+#damage-table tr:hover td {
+    background-color: #ccc
+}
+
+#damage-table tr:focus td.htk-1,
+#damage-table tr:hover td.htk-1 {
+    background-color: #ff4d4d
+}
+
+#damage-table tr:focus td.htk-2,
+#damage-table tr:hover td.htk-2 {
+    background-color: #ff4dff
+}
+
+#damage-table tr:focus td.htk-3,
+#damage-table tr:hover td.htk-3 {
+    background-color: #ffc04d
+}
+
+#damage-table tr:focus td.htk-4,
+#damage-table tr:hover td.htk-4 {
+    background-color: #91afff
+}
+
+#damage-table tr:focus td.htk-5,
+#damage-table tr:hover td.htk-5 {
+    background-color: #5cce5c
+}
+
+#damage-table tr:focus td.htk-6,
+#damage-table tr:hover td.htk-6 {
+    background-color: #c0ace8
+}
+
+#damage-table tr:focus td.htk-7,
+#damage-table tr:focus td.htk-8,
+#damage-table tr:focus td.htk-9,
+#damage-table tr:hover td.htk-7,
+#damage-table tr:hover td.htk-8,
+#damage-table tr:hover td.htk-9 {
+    background-color: #eb3eab
+}
+
+#damage-table tr:focus td.htk-10,
+#damage-table tr:focus td.htk-11,
+#damage-table tr:focus td.htk-12,
+#damage-table tr:focus td.htk-13,
+#damage-table tr:focus td.htk-14,
+#damage-table tr:focus td.htk-15,
+#damage-table tr:focus td.htk-16,
+#damage-table tr:focus td.htk-17,
+#damage-table tr:focus td.htk-18,
+#damage-table tr:focus td.htk-19,
+#damage-table tr:hover td.htk-10,
+#damage-table tr:hover td.htk-11,
+#damage-table tr:hover td.htk-12,
+#damage-table tr:hover td.htk-13,
+#damage-table tr:hover td.htk-14,
+#damage-table tr:hover td.htk-15,
+#damage-table tr:hover td.htk-16,
+#damage-table tr:hover td.htk-17,
+#damage-table tr:hover td.htk-18,
+#damage-table tr:hover td.htk-19 {
+    background-color: #cfb89e
+}
+
+#damage-table tr:focus td.htk-20,
+#damage-table tr:hover td.htk-20 {
+    background-color: #f8ecdd
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    width: 150px
+}
+
+input[type=range]:focus {
+    outline: 0
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: hsla(0, 0%, 52%, .8)
+}
+
+input[type=range]:focus::-ms-fill-lower {
+    background: hsla(0, 0%, 47%, .8)
+}
+
+input[type=range]:focus::-ms-fill-upper {
+    background: hsla(0, 0%, 52%, .8)
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    cursor: pointer;
+    height: 12px;
+    transition: all .2s ease;
+    width: 150px;
+    margin: 12px 0;
+    box-shadow: none;
+    background: hsla(0, 0%, 47%, .8);
+    border: none;
+    border-radius: 0
+}
+
+input[type=range]::-webkit-slider-thumb {
+    box-shadow: -1px -1px rgba(0, 0, 0, .25), -1px 1px rgba(0, 0, 0, .25), 1px 1px rgba(0, 0, 0, .25), 1px -1px rgba(0, 0, 0, .25);
+    background: linear-gradient(135deg, #e0e0e0, #bbb);
+    border: 1px solid;
+    border-radius: 1px;
+    border-image: linear-gradient(135deg, #e0e0e0, #cecece) 1;
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    -webkit-appearance: none;
+    margin-top: -6px
+}
+
+input[type=range]::-moz-range-track {
+    cursor: pointer;
+    height: 12px;
+    transition: all .2s ease;
+    width: 150px;
+    box-shadow: none;
+    background: hsla(0, 0%, 47%, .8);
+    border: none;
+    border-radius: 0
+}
+
+input[type=range]::-moz-range-thumb {
+    box-shadow: -1px -1px rgba(0, 0, 0, .25), -1px 1px rgba(0, 0, 0, .25), 1px 1px rgba(0, 0, 0, .25), 1px -1px rgba(0, 0, 0, .25);
+    background: linear-gradient(135deg, #e0e0e0, #bbb);
+    border: 1px solid;
+    border-radius: 1px;
+    border-image: linear-gradient(135deg, #e0e0e0, #cecece) 1;
+    cursor: pointer;
+    height: 24px;
+    width: 24px
+}
+
+input[type=range]::-ms-track {
+    cursor: pointer;
+    height: 12px;
+    transition: all .2s ease;
+    width: 150px;
+    background: transparent;
+    border-color: transparent;
+    border-width: 12px 0;
+    color: transparent
+}
+
+input[type=range]::-ms-fill-lower {
+    box-shadow: none;
+    background: hsla(0, 0%, 42%, .8);
+    border: none;
+    border-radius: 0
+}
+
+input[type=range]::-ms-fill-upper {
+    box-shadow: none;
+    background: hsla(0, 0%, 47%, .8);
+    border: none;
+    border-radius: 0
+}
+
+input[type=range]::-ms-thumb {
+    box-shadow: -1px -1px rgba(0, 0, 0, .25), -1px 1px rgba(0, 0, 0, .25), 1px 1px rgba(0, 0, 0, .25), 1px -1px rgba(0, 0, 0, .25);
+    background: linear-gradient(135deg, #e0e0e0, #bbb);
+    border: 1px solid;
+    border-radius: 1px;
+    border-image: linear-gradient(135deg, #e0e0e0, #cecece) 1;
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    margin-top: 0
+}
+
+input[type=range][disabled] {
+    -webkit-appearance: none;
+    width: 150px
+}
+
+input[type=range][disabled]:focus {
+    outline: 0
+}
+
+input[type=range][disabled]:focus::-webkit-slider-runnable-track {
+    background: rgba(33, 33, 33, .8)
+}
+
+input[type=range][disabled]:focus::-ms-fill-lower {
+    background: hsla(0, 0%, 8%, .8)
+}
+
+input[type=range][disabled]:focus::-ms-fill-upper {
+    background: rgba(33, 33, 33, .8)
+}
+
+input[type=range][disabled]::-webkit-slider-runnable-track {
+    cursor: default;
+    height: 12px;
+    transition: all .2s ease;
+    width: 150px;
+    margin: 12px 0;
+    box-shadow: none;
+    background: hsla(0, 0%, 8%, .8);
+    border: none;
+    border-radius: 0
+}
+
+input[type=range][disabled]::-webkit-slider-thumb {
+    box-shadow: -1px -1px rgba(0, 0, 0, .25), -1px 1px rgba(0, 0, 0, .25), 1px 1px rgba(0, 0, 0, .25), 1px -1px rgba(0, 0, 0, .25);
+    background: linear-gradient(135deg, #aaa, #888);
+    border: 1px solid;
+    border-radius: 1px;
+    border-image: linear-gradient(135deg, #aaa, #ccc) 1;
+    cursor: default;
+    height: 24px;
+    width: 24px;
+    -webkit-appearance: none;
+    margin-top: -6px
+}
+
+input[type=range][disabled]::-moz-range-track {
+    cursor: default;
+    height: 12px;
+    transition: all .2s ease;
+    width: 150px;
+    box-shadow: none;
+    background: hsla(0, 0%, 8%, .8);
+    border: none;
+    border-radius: 0
+}
+
+input[type=range][disabled]::-moz-range-thumb {
+    box-shadow: -1px -1px rgba(0, 0, 0, .25), -1px 1px rgba(0, 0, 0, .25), 1px 1px rgba(0, 0, 0, .25), 1px -1px rgba(0, 0, 0, .25);
+    background: linear-gradient(135deg, #aaa, #888);
+    border: 1px solid;
+    border-radius: 1px;
+    border-image: linear-gradient(135deg, #aaa, #ccc) 1;
+    cursor: default;
+    height: 24px;
+    width: 24px
+}
+
+input[type=range][disabled]::-ms-track {
+    cursor: default;
+    height: 12px;
+    transition: all .2s ease;
+    width: 150px;
+    background: transparent;
+    border-color: transparent;
+    border-width: 12px 0;
+    color: transparent
+}
+
+input[type=range][disabled]::-ms-fill-lower {
+    box-shadow: none;
+    background: rgba(7, 7, 7, .8);
+    border: none;
+    border-radius: 0
+}
+
+input[type=range][disabled]::-ms-fill-upper {
+    box-shadow: none;
+    background: hsla(0, 0%, 8%, .8);
+    border: none;
+    border-radius: 0
+}
+
+input[type=range][disabled]::-ms-thumb {
+    box-shadow: -1px -1px rgba(0, 0, 0, .25), -1px 1px rgba(0, 0, 0, .25), 1px 1px rgba(0, 0, 0, .25), 1px -1px rgba(0, 0, 0, .25);
+    background: linear-gradient(135deg, #aaa, #888);
+    border: 1px solid;
+    border-radius: 1px;
+    border-image: linear-gradient(135deg, #aaa, #ccc) 1;
+    cursor: default;
+    height: 24px;
+    width: 24px;
+    margin-top: 0
+}
+
+.table-container {
+    clear: left
+}
+
+#vehicle-table {
+    margin-bottom: 2em;
+    overflow: hidden
+}
+
+#vehicle-table .vehicle-icon-container {
+    cursor: pointer
+}
+
+#vehicle-table .vehicle-info {
+    float: left;
+    padding: 2px;
+    margin: 2px;
+    border: 1px solid #888;
+    text-align: right;
+    text-shadow: -1px 0 2px #fff, 1px 0 2px #fff, 0 -1px 2px #fff, 0 1px 2px #fff;
+    position: relative;
+    cursor: pointer
+}
+
+#vehicle-table .vehicle-info:hover {
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    text-shadow: -1px 0 2px #f0f0f0, 1px 0 2px #f0f0f0, 0 -1px 2px #f0f0f0, 0 1px 2px #f0f0f0
+}
+
+#vehicle-table .vehicle-info.selected {
+    border: 1px solid #88f;
+    box-shadow: inset 0 0 3px #88f;
+    background-color: #eef
+}
+
+#vehicle-table .vehicle-htk-count:after {
+    display: block;
+    content: "number of hits";
+    font-size: x-small;
+    font-weight: 700;
+    color: #000
+}
+
+#vehicle-table .vehicle-icon {
+    z-index: 0
+}
+
+#vehicle-table .vehicle-htk {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0
+}
+
+#vehicle-overlay {
+    width: 330px;
+    height: 673.2px;
+    margin-right: 10px;
+    z-index: 2;
+    left: 0;
+    background: #fff
+}
+
+#vehicle-overlay,
+#vehicle-overlay .close {
+    position: absolute;
+    top: 0;
+    text-align: center
+}
+
+#vehicle-overlay .close {
+    right: 49px;
+    background-color: #ff9696;
+    border: 1px solid #ff6464;
+    border-radius: 5px;
+    color: #640000;
+    text-shadow: 0 0 3px rgba(50, 0, 0, .5);
+    transition: background .2s, border .2s, color .2s, text-shadow .2s;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    vertical-align: middle;
+    z-index: 3
+}
+
+#vehicle-overlay .close:hover {
+    background-color: hsla(0, 100%, 91%, .8);
+    border: 1px solid #ff9696
+}
+
+#vehicle-overlay .vehicle-info {
+    display: inline-block
+}
+
+#vehicle-overlay .vehicle-htk-table {
+    margin: 0 auto
+}
+
+.vehicle-info {
+    background: linear-gradient(rgba(0, 0, 0, .1), transparent);
+    transition: background .2s
+}
+
+.vehicle-info .vehicle-htk-count {
+    transition: color .2s
+}
+
+.vehicle-info .vehicle-htk-teamSize {
+    font-size: small
+}
+
+.vehicle-info .vehicle-htk-table {
+    text-align: right;
+    margin-left: auto;
+    margin-right: 0
+}
+
+.vehicle-info .vehicle-htk-table * {
+    padding: 0
+}
+
+.vehicle-info .vehicle-htk-table tr td:first-child {
+    padding-right: .15em
+}
+
+.vehicle-info:focus,
+.vehicle-info:hover {
+    background: linear-gradient(rgba(0, 0, 0, .15), rgba(0, 0, 0, .05))
+}
+
+.vehicle-info:focus .vehicle-htk-count,
+.vehicle-info:hover .vehicle-htk-count {
+    color: red
+}
+
+.vehicle-htk-table {
+    border-spacing: 0;
+    border-collapse: collapse
+}
+
+.vehicle-icon-container {
+    width: 200px;
+    height: 200px;
+    position: relative
+}
+
+.vehicle-icon {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto
+}
