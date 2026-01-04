@@ -1,7 +1,7 @@
 # 🌐 justauramo.github.io
 
-Moderni, nopea ja visuaalisesti tyylikäs **henkilökohtainen portfolio / aloitussivu**, rakennettu dev-mentaliteetilla.  
-Tämä projekti toimii kotipesänä mun projekteille, kokeiluille ja digitaaliselle identiteetille.
+A modern, fast, and visually polished **personal portfolio / landing page**, built with a developer-first mindset.  
+This project serves as my digital home for projects, experiments, and my online identity.
 
 👉 Live: https://justauramo.github.io
 
@@ -9,12 +9,12 @@ Tämä projekti toimii kotipesänä mun projekteille, kokeiluille ja digitaalise
 
 ## ✨ Features
 
-- 🎨 Moderni dark UI
-- 🌈 Animoitu background gradient
-- ✨ Smooth fade & slide -animaatiot
-- 🧭 Selkeä navigaatio useille sivuille
-- ⚡ Nopea ja kevyt (GitHub Pages ready)
-- 🧱 Helposti laajennettavissa Astro / React / Next.js -stackiin
+- 🎨 Modern dark UI
+- 🌈 Animated background gradient
+- ✨ Smooth fade & slide animations
+- 🧭 Clean navigation with multiple pages
+- ⚡ Lightweight & fast (GitHub Pages ready)
+- 🧱 Easy upgrade path to Astro / React / Next.js
 
 ---
 
@@ -22,13 +22,13 @@ Tämä projekti toimii kotipesänä mun projekteille, kokeiluille ja digitaalise
 
 **Current**
 - HTML5  
-- CSS3 (Custom properties, animations)
+- CSS3 (custom properties, animations)
 - Vanilla JavaScript
 
 **Planned / Upgrade-ready**
-- ⚛️ React (komponenttipohjainen UI)
-- 🚀 Astro (SEO + performance king)
-- 🧠 Next.js (full-stack valmius)
+- ⚛️ React (component-based UI)
+- 🚀 Astro (SEO + performance focused)
+- 🧠 Next.js (full-stack capable)
 
 ---
 
@@ -45,4 +45,3 @@ Tämä projekti toimii kotipesänä mun projekteille, kokeiluille ja digitaalise
 │  ├─ about.html
 │  └─ projects.html
 └─ README.md
-
